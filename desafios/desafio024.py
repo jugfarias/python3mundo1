@@ -2,6 +2,9 @@
 
 cidade = input('Digite o nome de uma cidade: ')
 cidade = cidade.lower()
+
+print(cidade[0:5] == "santo")
+
 '''
 cidade_lista = cidade.split()
 
@@ -10,4 +13,4 @@ if cidade_lista[0] == 'santo':
 else:
     print('A cidade não começa com Santo')
 '''
-print(cidade[0:5] == "santo")
+
