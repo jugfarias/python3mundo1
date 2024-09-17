@@ -2,7 +2,11 @@
 
 nome = input('Digite seu nome completo: ')
 nome = nome.lower()
+nome = nome.strip()
 
+print('Tem Silva no nome? {}'.format('silva' in nome))
+
+'''
 nome_lista = nome.split()
 
 intervalo = len(nome_lista)
@@ -14,3 +18,4 @@ for i in range (0, intervalo):
     elif i == intervalo - 1:
         print('Não tem Silva no nome')
         break 
+'''
