@@ -2,6 +2,7 @@
 
 cidade = input('Digite o nome de uma cidade: ')
 cidade = cidade.lower()
+cidade = cidade.strip()
 
 print(cidade[0:5] == "santo")
 
